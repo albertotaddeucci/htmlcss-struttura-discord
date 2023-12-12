@@ -122,7 +122,7 @@ nav .row{
 /* section2 end */
 
 .gray-bg{
-    background-color: grey;
+    background-color: #d3d3d3;
 }
 /* section3 start */
 
@@ -134,6 +134,11 @@ nav .row{
 
 /* section3 end */
 
+.riquadro-verde{
+    background-color: #228b22;
+    min-width: 1250px;
+     height: 940px;
+}
 
 
 /* main end */
