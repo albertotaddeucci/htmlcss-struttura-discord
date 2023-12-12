@@ -74,6 +74,7 @@ nav .row .login{
 
     margin: auto;
     
+    
 }
 
 .blu-bg{
@@ -90,38 +91,30 @@ main section .container .hero{
     /* test */
     height: 416px;
      
-    background-color:#ee82ee;
+    background-color: #ee82ee;
     
 }
 
 /* section2 start */
 
-.riquadro{
-    display: flex;
-    
-    width: 1250px;
-    
-    
-    
-}
+section .container .image-card{
+    width: 746px;
 
-.lightblu-square{
-    width: 750px;
-    
     /* test */
     height: 520px;
 
     background-color: #1e90ff;
-
 }
 
-.pink-square{
+
+section .container .text-card{
     flex-grow: 1;
 
-    background-color: #ffc0cb;
+    background-color: #ffb8c3;
 }
 
 /* section2 end */
+
 
 .gray-bg{
     background-color: #d3d3d3;
