@@ -66,6 +66,16 @@ nav .row .login{
 
 
 /* section1 start */
+.container{
+    display: flex;
+    justify-content: center;
+
+    max-width: 1250px;
+
+    margin: auto;
+    
+}
+
 .blu-bg{
     background-color: blue;
 }
@@ -74,24 +84,17 @@ nav .row .login{
     padding: 50px;
 }
 
-section .violet-square{
-    width:  946px;
+main section .container .hero{
+    width: 946px;
 
     /* test */
     height: 416px;
-
-    background-color: #ee82ee;
-}
-/* section1 end */
-
-
-/* section2 start */
-.container{
-    display: flex;
-    justify-content: center;
-    /* max-width: 1250px; */
+     
+    background-color:#ee82ee;
     
 }
+
+/* section2 start */
 
 .riquadro{
     display: flex;
