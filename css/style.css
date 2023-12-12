@@ -145,7 +145,12 @@ nav .row{
 
 
 /* footer start */
-.lists{
+footer{
+    background-color: #23272a;
+    
+}
+
+footer .lists{
     display: flex;
 
     min-width: 1250px;
@@ -154,14 +159,14 @@ nav .row{
     
 }
 
-.first-list{
+footer .lists .first-list{
     width: 375px;
 
     background-color: #f08080;
     
 }
 
-.list{
+footer .lists .list{
     flex-grow: 1;
     
     border: dashed 2px white;
@@ -171,5 +176,22 @@ nav .row{
 }
 
 
+    
+.riquadro-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    min-width: 1250px;
+
+    /* test */
+    height: 84px;
+
+
+    background-color: #7fffd4;
+}
+
+.lightpink{
+    background-color: #ffb8c3;
+}
 /* footer end */
