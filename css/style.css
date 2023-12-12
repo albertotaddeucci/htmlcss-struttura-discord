@@ -74,18 +74,44 @@ nav .row{
     padding: 50px;
 }
 
-#pink-square{
-    max-width: 946px;
+#violet-square{
+    max-width:  946px;
 
     /* test */
     height: 416px;
-    
+
     margin: auto;
 
     background-color: #ee82ee;
 }
 /* section1 end */
 
+
+/* section2 start */
+.container{
+    display: flex;
+    margin: auto;
+    max-width: 1250px;
+    
+}
+
+.lightblu-square{
+    width: 750px;
+    
+    /* test */
+    height: 520px;
+
+    background-color: #1e90ff;
+
+}
+
+.pink-square{
+    flex-grow: 1;
+    
+    background-color: #ffc0cb;
+}
+
+/* section2 end */
 
 
 
