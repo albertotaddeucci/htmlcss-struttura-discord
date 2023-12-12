@@ -13,7 +13,7 @@
 nav{
     background-color: #add8e6;
     padding: 15px;
-    
+        
 }
 
 nav .row{
@@ -62,3 +62,31 @@ nav .row{
 }
 
 /* nav end */
+
+/* main start */
+
+/* section1 start */
+.blu-bg{
+    background-color: blue;
+}
+
+.padding-md{
+    padding: 50px;
+}
+
+#pink-square{
+    max-width: 946px;
+
+    /* test */
+    height: 416px;
+    
+    margin: auto;
+
+    background-color: #ee82ee;
+}
+/* section1 end */
+
+
+
+
+/* main end */
