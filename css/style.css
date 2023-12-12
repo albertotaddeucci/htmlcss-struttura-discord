@@ -90,8 +90,16 @@ nav .row{
 /* section2 start */
 .container{
     display: flex;
-    margin: auto;
-    max-width: 1250px;
+    justify-content: center;
+    /* max-width: 1250px; */
+    
+}
+
+.riquadro{
+    display: flex;
+    background-color: red;
+
+    min-width: 1250px;
     
 }
 
@@ -107,11 +115,24 @@ nav .row{
 
 .pink-square{
     flex-grow: 1;
-    
+
     background-color: #ffc0cb;
 }
 
 /* section2 end */
+
+.gray-bg{
+    background-color: grey;
+}
+/* section3 start */
+
+.reverse{
+    flex-direction: row-reverse;
+    
+}
+
+
+/* section3 end */
 
 
 
