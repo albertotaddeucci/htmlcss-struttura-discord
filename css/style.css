@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* class per dashed border */
+.border{
+    border: dashed 2px black;
+}
+
+/* nav start */
+nav{
+    background-color: #add8e6;
+    padding: 15px;
+    
+}
+
+nav .row{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1250px;
+    
+    margin: auto;
+
+    background-color: #daa520;
+}
+
+.padding-sm{
+    padding: 8px;
+}
+
+.row .logo{
+       
+    width: 250px;
+}
+
+.row .links{
+    flex-grow: 1;
+    
+}
+
+.row .links ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    list-style: none;
+    
+}
+
+.row .links ul li a{
+    text-decoration: none;
+}
+
+.login{
+    width: 250px;
+
+    text-align: end;
+
+}
+
+/* nav end */
