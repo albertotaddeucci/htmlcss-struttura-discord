@@ -97,8 +97,7 @@ nav .row{
 
 .riquadro{
     display: flex;
-    background-color: red;
-
+    
     min-width: 1250px;
     
 }
@@ -135,10 +134,42 @@ nav .row{
 /* section3 end */
 
 .riquadro-verde{
-    background-color: #228b22;
     min-width: 1250px;
-     height: 940px;
+    height: 940px;
+
+    background-color: #228b22;
 }
 
 
 /* main end */
+
+
+/* footer start */
+.lists{
+    display: flex;
+
+    min-width: 1250px;
+    height: 500px;
+
+    
+}
+
+.first-list{
+    width: 375px;
+
+    background-color: #f08080;
+    
+}
+
+.list{
+    flex-grow: 1;
+    
+    border: dashed 2px white;
+
+    background-color: #20b2aa;
+
+}
+
+
+
+/* footer end */
