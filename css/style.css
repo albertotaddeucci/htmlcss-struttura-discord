@@ -82,7 +82,8 @@ nav .row .login{
 }
 
 .padding-md{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 main section .container .hero{
@@ -129,7 +130,7 @@ section .container .text-card{
 
 /* section3 end */
 
-.riquadro-verde{
+.cardxl{
     width: 1250px;
 
     /* test */
