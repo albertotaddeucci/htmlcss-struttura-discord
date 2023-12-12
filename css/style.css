@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 /* class per dashed border */
 .border{
     border: dashed 2px black;
@@ -12,7 +16,12 @@
 /* nav start */
 nav{
     background-color: #add8e6;
-    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+
+   
         
 }
 
@@ -20,20 +29,19 @@ nav{
 nav .row{
     display: flex;
     justify-content: space-between;
-
-    max-width: 1250px;
     
+    max-width: 1250px;
+      
     margin: auto;
 
     background-color: #daa520;
 }
 
 .padding-sm{
-    padding: 8px;
+    padding: 12px;
 }
 
-nav .row .logo{
-       
+nav .row .logo{       
     width: 250px;
 }
 
@@ -57,6 +65,7 @@ nav .row .links ul li a{
 
 nav .row .login{
     width: 250px;
+    text-align: end;
 
 }
 
@@ -78,7 +87,7 @@ nav .row .login{
 }
 
 .blu-bg{
-    background-color: blue;
+    background-color: #00008b;
 }
 
 .padding-md{
@@ -145,52 +154,69 @@ section .container .text-card{
 
 /* footer start */
 footer{
-    background-color: #23272a;
+    background-color: #23272a;    
     
 }
 
-footer .lists{
-    display: flex;
-
-    min-width: 1250px;
-    height: 500px;
-
-    
+footer section:first-child{
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
-footer .lists .first-list{
+footer .container .first-list{
     width: 375px;
+
+    height: 600px;
 
     background-color: #f08080;
     
 }
 
-footer .lists .list{
+footer .container .list{
     flex-grow: 1;
     
     border: dashed 2px white;
-
+    
     background-color: #20b2aa;
 
 }
 
+footer section:nth-child(2){
 
+    padding-top: 40px;
+
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
     
-footer .container .riquadro-footer{
+}
+
+footer .bottomrow{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    min-width: 1250px;
+    max-width: 1250px;
 
     /* test */
-    height: 84px;
-
-
+    height: 84px;    
+    
+    margin: auto;
+    
     background-color: #7fffd4;
 }
 
-footer .container .riquadro-footer .lightpink{
-    background-color: #ffb8c3;
+footer .bottomrow .bottomlogo{       
+    
+    background-color: #ffb6c1;
+
 }
+
+
+
+footer .bottomrow .bottombtn{
+    
+    background-color: #ffb6c1;
+
+}
+
 /* footer end */
